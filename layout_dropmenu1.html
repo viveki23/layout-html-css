@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>dropmenu</title>
+
+    <style>
+        * {
+
+            margin: 0px;
+            padding: 0px;
+
+
+        }
+
+        header,
+        footer {
+            line-height: 60px;
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        nav {
+            margin-left: 25%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            line-height: 50px;
+        }
+
+        nav ul li {
+            float: left;
+            width: 150px;
+            background-color: rgb(20, 240, 240);
+            margin: 1px;
+        }
+
+        nav ul li a {
+            display: block;
+            color: dimgrey;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: deepskyblue;
+        }
+
+        nav ul li ul {
+            display: none;
+        }
+
+        nav ul li:hover>ul {
+            display: block;
+        }
+
+        section {
+            height: 400px;
+            background-image: url(layout_dropmenu1.jpg);
+            background-size: cover;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">product</a>
+                    <ul>
+                        <li><a href="">product1</a></li>
+                        <li><a href="">product2</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">service</a></li>
+                <li><a href="">contact</a></li>
+
+            </ul>
+        </nav>
+    </section>
+    <footer>footer</footer>
+</body>
+
+
+</html>
