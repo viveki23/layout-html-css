@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout11</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        header,
+        footer {
+            width: 100%;
+            height: 100px;
+            background: rgb(52, 140, 241);
+            text-align: center;
+        }
+
+        .main {
+            width: 100%;
+            height: 500px;
+            text-align: center;
+        }
+
+        .m1 {
+            width: 20%;
+            height: 500px;
+            background: gray;
+            float: left;
+        }
+
+        .m6 {
+            width: 20%;
+            height: 500px;
+            background: gray;
+            float: right;
+        }
+
+        .m2 {
+            width: 30%;
+            height: 500px;
+            background: rgb(22, 160, 114);
+            float: left;
+        }
+
+        .m3 {
+            width: 30%;
+            height: 500px;
+            background: rgb(180, 86, 86);
+            float: left;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>Header</header>
+    <!-- main -->
+    <div class="main">
+        <div class="m1">20% leftside</div>
+
+        <div class="m2">30% lside</div>
+
+        <div class="m3">30% rside</div>
+
+        <div class="m6">20% right side</div>
+    </div>
+
+    <!-- footer -->
+    <footer>Footer</footer>
+
+
+</body>
+
+</html>

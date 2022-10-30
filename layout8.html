@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout8</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* header */
+        header {
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            background-color: rgb(21, 189, 231);
+
+        }
+
+        .t1 {
+            float: left;
+            padding: 0 40px;
+        }
+
+        .log {
+            float: right;
+            padding: 0 40px;
+        }
+
+        /* banner */
+        .banner {
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            background: rgb(243, 239, 239);
+            padding: 70px 0px;
+
+        }
+
+        .banner h1 {
+            margin-bottom: 15px;
+        }
+
+        .banner p {
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: rgb(107, 146, 107);
+            width: 15%;
+            height: 30px;
+        }
+
+
+
+        /* drop */
+        .drop {
+
+            height: 80px;
+            width: 30%;
+            margin-left: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(58, 54, 54);
+        }
+
+        select {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        select:focus {
+            outline: none;
+        }
+
+
+
+
+        /* menu */
+        .menu {
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+        }
+
+        .menu ul li {
+            display: inline;
+            list-style: none;
+            padding: 40px;
+        }
+
+        /* title */
+        .title {
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            background: rgb(250, 246, 246);
+            text-align: center;
+        }
+
+        /* footer */
+        footer {
+            text-align: center;
+            height: 80px;
+            line-height: 80px;
+            width: 100%;
+            background-color: rgb(235, 241, 239);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="t1">
+            <h1>Trello</h1>
+        </div>
+        <div class="log">
+            <h1>Login</h1>
+        </div>
+    </header>
+
+    <!-- banner -->
+
+    <div class="banner">
+        <h1>Start PlanningToday</h1>
+        <p>lorem Start PlanningToday</p>
+        <button>Get Started</button>
+    </div>
+
+
+
+    <!-- drop -->
+    <div class="drop">
+
+        <select name="language" id="language">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="c++" disabled>C++</option>
+            <option value="java" selected>Java</option>
+        </select>
+    </div>
+
+
+
+    <!-- menubar -->
+
+    <div class="menu">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Product</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <!-- title  -->
+
+    <div class="title">
+        <h1>PHP ROCKS</h1>
+    </div>
+    <!-- footer -->
+    <footer>
+        <p>Copyright 2022</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout-6</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        /* head */
+
+        .head {
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            background: silver;
+        }
+
+        .head1 {
+            float: left;
+            padding: 0 40px;
+        }
+
+        .head2 {
+            float: right;
+        }
+
+
+        .head2 ul li {
+            display: inline;
+            font-size: 20px;
+            font-weight: 600;
+            list-style: none;
+            padding: 0 40px;
+        }
+
+
+
+        /* banner */
+
+        .coffee {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(layout6.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgb(233, 236, 10);
+            text-align: center;
+
+        }
+
+        .coffee h1 {
+
+            padding: 25px 0px;
+            font-size: 70px;
+        }
+
+        .coffee p {
+            padding: 10px 20px;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* about */
+
+        .about {
+            width: 100%;
+            height: 400px;
+            background: rgb(85, 60, 60);
+            color: white;
+
+        }
+
+        .about h3 {
+            padding: 10px 20px;
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .about p {
+            padding: 0 20px;
+        }
+
+        .about ul {
+            padding-left: 5%;
+        }
+
+        .about ul li {
+            padding: 0 20px;
+            display: inline;
+            list-style: none;
+        }
+
+        /* menu */
+
+        .menu {
+            width: 100%;
+            height: 400px;
+            background: rgb(168, 159, 159);
+
+        }
+
+        .menu h3 {
+            padding: 10px 20px;
+            font-size: 30px;
+            margin-bottom: 5px;
+
+        }
+
+        .menu p {
+            padding: 0 20px;
+            font-size: 20px;
+        }
+
+
+        .menu ul {
+            padding-left: 20%;
+
+        }
+
+        .menu ul li {
+            display: inline;
+            list-style: none;
+            padding: 0 30px;
+        }
+
+        /* map */
+
+        .map {
+            width: 100%;
+            height: 400px;
+            background: rgb(175, 107, 107);
+            padding: 10px 20px;
+            font-size: 30px;
+
+        }
+
+        .map iframe {
+            width: 50%;
+            height: 300px;
+        }
+
+        .map p {
+            float: right;
+            padding-right: 450px;
+
+        }
+
+        /* footer */
+        footer {
+            text-align: center;
+            font-size: 30px;
+            background: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- head -->
+    <div class="head">
+        <div class="head1">
+            <h2>Coffee</h2>
+        </div>
+        <div class="head2">
+            <ul>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Location</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="coffee">
+        <h1>Central coffee</h1>
+        <p>coffee coffee coffee </p>
+    </div>
+    <div class="about">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, accusantium praesentium dolorum quidem
+            dolor placeat. <br> oluptate, fugiat, error adipisci dolorem iste blanditiis non officia vero modi pariatur
+            delectus sunt maxime.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, accusantium praesentium dolorum quidem
+            dolor placeat. Voluptate, fugiat, error adipisci dolorem iste blanditiis non officia vero modi pariatur
+            delectus sunt maxime.</p>
+
+        <ul>
+            <li><img src="layout6.jpg" alt="" width="300px" height="200px"></li>
+            <li><img src="layout6.jpg" alt="" width="300px" height="200px"></li>
+            <li><img src="layout6.jpg" alt="" width="300px" height="200px"></li>
+            <li><img src="layout6.jpg" alt="" width="300px" height="200px"></li>
+        </ul>
+    </div>
+
+    <!-- menu -->
+
+    <div class="menu">
+        <h3>Menu</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nemo illum doloribus eaque enim
+            distinctio, ab laudantium, <br> dolorum praesentium corporis quas necessitatibus aliquid dicta velit nostrum
+            soluta temporibus incidunt iusto?</p>
+
+        <ul>
+            <li><img src="layout6.jpg" alt="" width="300px" height="280px"></li>
+            <li><img src="layout6.jpg" alt="" width="300px" height="280px"></li>
+        </ul>
+
+    </div>
+
+    <!-- map -->
+
+    <div class="map">
+        <h4>Location</h4>
+        <iframe width="40%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=200&amp;height=300&amp;hl=en&amp;q=new delhi&amp;
+                    t=k&amp;z=5&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+        <p>12 street ,New Delhi </p>
+
+
+    </div>
+
+    </div>
+
+    <footer>coffee center @ 2022 </footer>
+
+</body>
+
+</html>

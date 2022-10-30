@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout4</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* footer */
+        footer {
+            text-align: center;
+            width: 100%;
+            height: 80px;
+            background: grey;
+            padding: 20px 0px 0px 120px;
+        }
+
+        /* nav */
+        nav {
+            height: 80px;
+            width: 100%;
+            background: skyblue;
+            padding: 20px 0px 0px 120px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 60px;
+            float: right;
+        }
+
+        /* nav-logo*/
+        .logo {
+            font-size: 16px;
+            float: left;
+        }
+
+        /* hero-bg */
+        .bg {
+            background-position: center;
+            width: 100%;
+            height: 300px;
+            padding: 70px;
+            background-image: url(img.jpg);
+            color: rgb(252, 244, 244);
+        }
+
+        /* section*/
+        section {
+            height: 400px;
+            padding: 20px 0px 0px 120px;
+        }
+
+        .main {
+            width: 100%;
+            text-align: center;
+        }
+
+        .left {
+
+            padding: 10px 10px;
+            margin: 5px;
+            float: left;
+            background: rgb(216, 194, 194);
+            height: 300px;
+            width: 30%;
+        }
+
+        .left1 {
+            padding: 10px 10px;
+            margin: 5px;
+            float: left;
+            background: rgb(216, 194, 194);
+            height: 300px;
+            width: 30%;
+        }
+
+        .left2 {
+            padding: 10px 10px;
+            margin: 5px;
+            float: left;
+            background: rgb(216, 194, 194);
+            height: 300px;
+            width: 30%;
+        }
+
+        /* button */
+        .button {
+            border: 2px solid #4CAF50;
+            color: rgb(22, 21, 21);
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h2>Logo</h2>
+        </div>
+        <ul>
+            <li>CONTACT</li>
+            <li>BLOG</li>
+            <li>ABOUT</li>
+            <li>HOME</li>
+        </ul>
+    </nav>
+
+    <div class="bg">
+        <h1>Welcome PHP</h1> <br>
+        <h4>
+            <p>Php is server-side scripting language </p>
+        </h4>
+        <br>
+        <button class="button ">Read me</button>
+    </div>
+
+    <!--section-->
+
+    <section>
+        <div class="main">
+
+            <div class="left">
+                <h3>PHP</h3> <br>
+                <p>HTML colors are specified
+                    with predefined color names, or with RGB, HEX, HSL
+                    , RGBA, or HSLA values.</p>
+            </div>
+
+            <div class="left1">
+                <h3>PHP</h3> <br>
+                <p>HTML colors are specified
+                    with predefined color names, or with RGB, HEX, HSL
+                    , RGBA, or HSLA values.</p>
+            </div>
+
+            <div class="left2">
+                <h3>PHP</h3> <br>
+                <p>HTML colors are specified
+                    with predefined color names, or with RGB, HEX, HSL
+                    , RGBA, or HSLA values.</p>
+            </div>
+
+    </section>
+
+    <footer>
+        All right reserved.@ 2022
+    </footer>
+
+</body>
+
+</html>
